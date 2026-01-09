@@ -11,11 +11,15 @@ text-decoration: none;
 li{
     list-style: none;
 }
+P{
+    color: #627382;
+}
 .navbar-section{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 92px;
+       max-width: 1200px !important;
 }
 .navbar-section ul li a{
     color: #000;
@@ -104,4 +108,76 @@ button{
     column-gap: 16px;
 }
 /* notes Section  */
-.note
+.note-card{
+    text-align: center;
+    align-items: center;
+    display: flex;
+     column-gap: 30px;
+     padding: 50px 0 0 0;
+}
+.note{
+    padding: 100px 0;
+    max-width: 1200px !important;
+}
+.note .note-contetn h2{
+   font-size: 48px;
+   font-weight: 700;
+   color: #000;
+}
+
+.note-contetn{
+    text-align: center;
+}
+.card-item{
+    padding: 70px 24px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+   
+
+}
+
+.card-item img{
+    padding: 14px;
+    background: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+   
+}
+/* brain section */
+.brain {
+    max-width: 1200px;
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+.brain .image img{
+    border-radius: 12px;
+    
+}
+.brain .brain-content{
+    width: 50%;
+}
+
+.brain .brain-content h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+}
+.brain .brain-content h2{
+    font-weight: 700;
+    font-size: 48PX;
+    color: #000;
+}
+.brain .brain-content .list li{
+    color: rgba(0, 25, 49, 1);
+    font-size: 16px;
+    column-gap: 15px;
+    padding-top: 16px;
+
+}
+.brain .brain-content .list li img{
+    width: 20px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+.brain .brain-content p{
+    padding:16px 175px 40px 0px;
+}
